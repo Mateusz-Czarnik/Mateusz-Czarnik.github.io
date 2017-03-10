@@ -645,6 +645,18 @@ header .h1-caption {
   opacity: 1;
 }
 
+.portfolio-section .drumkit {
+  background: url("../images/drumkit.png");
+}
+
+.portfolio-section .clock {
+  background: url("../images/clock.png");
+}
+
+.portfolio-section .canvas {
+  background: url("../images/canvas.png");
+}
+
 .portfolio-section .bhagaskara {
   background: url("../images/Bhagaskara.png");
 }
@@ -670,19 +682,22 @@ header .h1-caption {
   right: 0;
   transition: all 0.5s;
   text-align: center;
-  transform: rotateX(90deg);
+  /*transform: rotateX(90deg);*/
   opacity: 0;
   transform-origin: center bottom;
 }
 
 .portfolio-section .portfolio-div span {
   display: block;
-  padding-top: 15%;
+  /*padding-top: 15%;*/
   font-weight: 300;
   color: white;
   text-transform: uppercase;
   font-size: 24px;
   line-height: 1.3;
+  position: relative;
+  top: 50%;
+  transform: translate(0,-50%);
 }
 
 .contact-section {
